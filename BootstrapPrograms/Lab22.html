@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB 22</title>
+    <link href="./css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+    <div class="card m-auto" style="max-width: 50%;">
+        
+            <div class="card-header text-center bg-light">
+                <img src="./bs.jpg" style="width: 40px; height: 40px;" class="img-fluid rounded-start" alt="...">
+                <h5>Checkout form</h5>
+                <p class="text-secondary">Below is an example from built entirely with Bootstrap form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+              </div>
+        
+        <div class="row g-0 mt-2">
+          <div class="col-md-8">
+            <form>
+                <div class="row">
+                    <div class="col">
+                        <h5>Billing address</h5>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-5">
+                        <label for="formGroupExampleInput" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput">
+                    </div>
+                    <div class="col-5">
+                        <label for="formGroupExampleInput" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-10">
+                        <label for="formGroupExampleInput" class="form-label">Username</label>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">@</span>
+                            <div class="form-floating text-secondary">
+                              <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username">
+                              <label for="floatingInputGroup1">Username</label>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-10">
+                        <label for="formGroupExampleInput" class="form-label">Email (Optional)</label> 
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="you@example.com">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-10">
+                        <label for="formGroupExampleInput" class="form-label">Address</label> 
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="1234 Main St">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-10">
+                        <label for="formGroupExampleInput" class="form-label">Address 2 (Optional)</label> 
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Apartment Or Suite">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-3">
+                        <label for="formGroupExampleInput" class="form-label">Country</label> 
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Choose...</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                    </div>
+                    <div class="col-3">
+                        <label for="formGroupExampleInput" class="form-label">State</label> 
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Choose...</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                    </div>
+                    <div class="col-4">
+                        <label for="formGroupExampleInput" class="form-label">Zip</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-10">
+                        <hr>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-10">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">Shipping address is the same as my billing address</label>
+                    </div>
+                </div>
+                <div class="row mb-4 mt-2">
+                    <div class="col-10">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">Save this Information for next time</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-10">
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h5>Payment</h5>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                              Credit Card
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                            <label class="form-check-label" for="flexRadioDefault2">
+                              Debit Card
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                            <label class="form-check-label" for="flexRadioDefault2">
+                              PayPal
+                            </label>
+                          </div>
+                    </div>
+                </div>
+                <div class="row mb-3 mt-3">
+                    <div class="col-5">
+                        <label for="formGroupExampleInput" class="form-label">Name On Card</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput">
+                        <div class="form-text" id="basic-addon4">Full name as displayed on card</div>
+                    </div>
+                    <div class="col-5">
+                        <label for="formGroupExampleInput" class="form-label">Credit Card Number</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-2">
+                        <label for="formGroupExampleInput" class="form-label">Expiration</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput">
+                    </div>
+                    <div class="col-2">
+                        <label for="formGroupExampleInput" class="form-label">CVV</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-10">
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button type="button" class="btn btn-primary fw-bold" style="width: 83%;">Continue To Checkout</button>
+                    </div>
+                </div>
+
+            </form>
+          </div>
+          <div class="col-md-4">
+            <div class="card-body">
+              <h5 class="card-title">Your Cart</h5>
+              <div class="card" style="width: 18rem;">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Product Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$12</li>
+                  <li class="list-group-item">Second Product&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$8</li>
+                  <li class="list-group-item">Promo Code&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$5</li>
+                  <li class="list-group-item text-success">Total(USD)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-$5</li>
+                </ul>
+                
+              </div>
+              <div class="input-group mt-3">
+                <input type="text" class="form-control" placeholder="Promo Code" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button class="btn btn-outline-secondary bg-secondary text-light" type="button" id="button-addon2">Redeem</button>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+<script src="./js/bootstrap.js"></script>    
+</body>
+</html>
