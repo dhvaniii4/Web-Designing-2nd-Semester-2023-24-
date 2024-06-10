@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 09  A2</title>
+    <style>
+        .box{
+            height: 100px;
+            width: 100px;
+            animation-name: moving;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            background-color: navy;
+        }
+        @keyframes moving {
+            0%{
+                background-color: navy;
+                margin: 0;
+            }
+            25%{
+                background-color: blue;
+                margin-left: 500px;
+                margin-top: 0;
+            }
+            50%{
+                background-color: skyblue;
+                margin-left: 500px;
+                margin-top: 500px;
+            }
+            75%{
+                background-color: navy;
+                margin-left: 0px;
+                margin-top: 500px;
+            }
+            100%{
+                background-color: green;
+                margin: 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        
+    </div>
+</body>
+</html>

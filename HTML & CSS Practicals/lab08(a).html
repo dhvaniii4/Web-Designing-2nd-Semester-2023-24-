@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab08(A)</title>
+    <style>
+        *{
+            font-family:'Times New Roman', Times, serif;
+            font-size: large;
+            box-sizing: border-box;
+        }
+        #header{
+            width: 100%;
+            min-height: 60px;
+            background-color: beige;
+            margin-bottom: 20px;
+        }
+        #image{
+            width: 4%;
+            min-height: 60px;
+            border: 2px solid gray;
+            float: left;
+        }
+        #navbar{
+            width: auto;
+            min-height: 60px;
+            float: right;
+            line-height: 60px;
+            margin-right: 50px;
+        }
+        #navbar ul{
+            display: flex;
+            list-style-type: none;
+            gap: 16px;
+        }
+        #main{
+            width: 100%;
+            height: 50vh;
+        }
+        #main img{
+            width: 100%;
+            height: 70%;
+            position: relative;
+        }
+        #text{
+            color: navy;
+            position: absolute;
+
+        }
+        #footer{
+            min-height: 200px;
+            width: 100%;
+            color: blue;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #program1{
+            min-height: 170px;
+            width: 21%;
+            border: 2px solid red;
+            padding-left: 5px;
+        }
+        #program2{
+            min-height: 170px;
+            width: 21%;
+            border: 2px solid red;
+            padding-left: 5px;
+        }
+        #program3{
+            min-height: 170px;
+            width: 21%;
+            border: 2px solid red;
+            padding-left: 5px;
+        }
+        #program4{
+            min-height: 170px;
+            width: 21%;
+            border: 2px solid red;
+            padding-left: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div id="image">
+            <img src="C:\Users\VICTUS\OneDrive\Pictures\Screenshots\Screenshot 2024-01-10 081254.png">
+        </div>
+        <div id="navbar">
+            <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">My Work</a></li>
+            <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div id="main" style="position: relative;">
+            <img src="C:\Users\VICTUS\OneDrive\Pictures\download.jpg" style="width: 100%;">
+            <div id="text" style="position: absolute; top: 100px; right: 100px;">
+                <h1>Hello, I'm a Web Developer</h1><br>I use HTML and CSS to convert webpage designs into beautiful and efficient websites.
+            </div>
+        </div>
+        <div id="footer">
+            <div id="program1">Program 1</div>
+            <div id="program2">Program 2</div>
+            <div id="program3">Program 3</div>
+            <div id="program4">Program 4</div>
+        </div>
+    </div>
+</body>
+</html>

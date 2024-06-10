@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screen Saver</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+        .wrap{
+            
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+
+        }
+        .wv{
+            width: 5px;
+            height: 100px;
+            margin: 10px;
+            background-image: linear-gradient(45deg, rgb(51, 36, 189), rgb(211, 50, 64));
+            animation: wave 1s linear infinite;
+            /* border-radius: 20px; */
+        }
+        .wv:nth-child(2){
+            animation-delay: 0.1s;
+        }
+        .wv:nth-child(3){
+            animation-delay: 0.2s;
+        }
+        .wv:nth-child(4){
+            animation-delay: 0.3s;
+        }
+        .wv:nth-child(5){
+            animation-delay: 0.4s;
+        }
+        .wv:nth-child(6){
+            animation-delay: 0.5s;
+        }
+        .wv:nth-child(7){
+            animation-delay: 0.6s;
+        }
+        .wv:nth-child(8){
+            animation-delay: 0.7s;
+        }
+        .wv:nth-child(9){
+            animation-delay: 0.8s;
+        }
+        .wv:nth-child(10){
+            animation-delay: 1.0s;
+        }
+        .wv:nth-child(11){
+            animation-delay: 1.2s;
+        }
+        .wv:nth-child(12){
+            animation-delay: 1.4s;
+        }
+        .wv:nth-child(13){
+            animation-delay: 1.6s;
+        }
+        .wv:nth-child(14){
+            animation-delay: 1.8s;
+        }
+        .wv:nth-child(15){
+            animation-delay: 2.0s;
+        }
+        @keyframes wave {
+            0%{
+                transform: scale(0);
+            }
+            50%{
+                transform: scale(1);
+            }
+            100%{
+                transform: scale(0);
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="wrap">
+        <div class="wv"></div>
+        <div class="wv"></div>
+        <div class="wv"></div>
+        <div class="wv"></div>
+        <div class="wv"></div>
+        <div class="wv"></div>
+        <div class="wv"></div>
+        <div class="wv"></div>
+        <div class="wv"></div>
+        <div class="wv"></div>
+        <div class="wv"></div>
+        <div class="wv"></div>
+        <div class="wv"></div>
+        <div class="wv"></div>
+        <div class="wv"></div>
+</div>
+</body>
+</html>

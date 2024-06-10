@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 09 Part B</title>
+    <style>
+        .par{
+            display: flex;
+            justify-content: space-around;
+            animation-duration: 20s;
+        }
+        #violet{
+            height: 100px;
+            width: 100px;
+            background-color: violet;
+            display: flex;
+            animation-name: custom;
+            animation-duration: 2s;
+            animation-delay: 2s;
+            animation-fill-mode: forwards;
+            
+        }
+        #indigo{
+            height: 100px;
+            width: 100px;
+            background-color: indigo;
+            display: flex;
+            /* animation-delay: 1s; */
+            animation-name: custom;
+            animation-duration: 2s;
+            animation-delay: 4s;
+            animation-fill-mode: forwards;
+        }
+        #blue{
+            height: 100px;
+            width: 100px;
+            background-color: blue;
+            display: flex;
+            /* animation-delay: 2s; */
+            animation-name: custom;
+            animation-duration: 2s;
+            animation-delay: 6s;
+            animation-fill-mode: forwards;
+        }
+        #green{
+            height: 100px;
+            width: 100px;
+            background-color: green;
+            display: flex;
+            /* animation-delay: 3s; */
+            animation-name: custom;
+            animation-duration: 2s;
+            animation-delay: 8s;
+            animation-fill-mode: forwards;
+        }
+        #yellow{
+            height: 100px;
+            width: 100px;
+            background-color: yellow;
+            display: flex;
+            animation-name: custom;
+            animation-duration: 2s;
+            animation-delay: 10s;
+            animation-fill-mode: forwards;
+        }
+        #orange{
+            height: 100px;
+            width: 100px;
+            background-color: orange;
+            display: flex;
+            animation-name: custom;
+            animation-duration: 2s;
+            animation-delay: 12s;
+            animation-fill-mode: forwards;
+        }
+        #red{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            display: flex;
+            animation-delay: 6s;
+            animation-name: custom;
+            animation-duration: 2s;
+            animation-delay: 14s;
+            animation-fill-mode: forwards;
+        }
+        
+        @keyframes custom {
+            from{
+                margin-top: 0px;
+                transform: rotate(0deg);
+                border-radius: 0%;
+                
+            }
+            to{
+                margin-top: 500px;
+                transform: rotate(360deg);
+                border-radius: 50%;
+                
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="par">
+    <div id="violet"></div>
+    <div id="indigo"></div>
+    <div id="blue"></div>
+    <div id="green"></div>
+    <div id="yellow"></div>
+    <div id="orange"></div>
+    <div id="red"></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 14 Part A</title>
+    <style>
+        nav{
+            height: 65px;
+            width: 100%;
+            background-color: rgb(69, 67, 67);
+            display: flex;
+            justify-content: center;
+            
+        }
+        .navtext{
+            color: white;
+            font-family: monospace;
+            font-size: 18px;
+            margin-left: 25px;
+            line-height: 65px;
+           display: flex;
+        }
+        .main{
+            background-color: lightgray;
+            height: 600px;
+            width: 100%;
+            
+        }
+        #youdont{
+            width: 100%;
+            height: 60px;
+            font-weight: bold;
+            font-size: 25px;
+            text-align: center;
+            padding-top: 30px;
+            justify-content: center;
+        }
+        #image{
+            height: 450px;
+            width: 20%;
+            float: left;
+            margin-left: 250px;
+            margin-top: 20px;
+            
+        }
+        .right{
+            height: 40%;
+            width: 40%;
+            margin-top: 50px;
+            float: right;
+            text-align: center;
+            font-size: 18px;
+            
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        button{
+            height: 30px;
+            width: 35%;
+            background-color: rgb(239, 141, 80);
+            color: white;
+            font-size: 14px;
+            margin-top: 30px;
+            border: 1px solid rgb(226, 122, 57);
+            border-radius: 5px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+            }
+            footer{
+                height: 100px;
+                width: 100%;
+                background-color: black;
+                color: white;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+            }
+            #foottext{
+                height: 30px;
+                line-height: 30px;
+                width: 25%;
+                display: flex;
+                justify-content: center;
+                margin-top: 50px;
+                
+            }
+            #footbutton{
+                height: 30px;
+                width: 30%;
+                background-color: rgb(239, 141, 80);
+                color: white;
+                font-size: 14px;
+                margin-top: 0;
+                border: 1px solid rgb(226, 122, 57);
+                border-radius: 5px;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+                
+            }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="navtext">The book series</div>
+        <div class="navtext">Testimonials</div>
+        <div class="navtext">The Author</div>
+        <div class="navtext">Free resources</div>
+    </nav>
+    <div class="main">
+        <div id="youdont"><tt>You don't know JavaScript</tt></div>
+        <div id="image">
+            <img src="D:\Darshan Uni\Semester2\Web Designing\cards\lab14.jpg.jpg" style="height: 100%; width: 100%; border-radius: 5px; border: 1px solid black;">
+        </div>
+        <div class="right">
+            Don't just drift through JavaScript.<br><br><br>Understand how JavaScript works<br><br><br>Start your journey through the bumpy side of JavaScript
+            <button>ORDER YOUR COPY NOW</button>    
+        </div>
+        </div>
+        <footer>
+            <div id="foottext">The first ebook in the book series is absolutely free.</div>
+            <button id="footbutton">FIND OUT MORE ABOUT THIS OFFER</button>
+        </footer>
+</body>
+</html>

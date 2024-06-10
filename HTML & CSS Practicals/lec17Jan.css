@@ -1,0 +1,11 @@
+#content{
+    background-color: green;
+}
+#logo{
+    color: white;
+    background-color: brown;
+    width: 200px;
+}
+#sidebar{
+    background-color: red;
+}
